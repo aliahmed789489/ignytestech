@@ -3,17 +3,16 @@ import Image from 'next/image'
 import './globals.css'
 import women from "../../public/women.png"
 import playBtn from "../../public/play.svg"
-import downVector from "../../public/Vector 4.png"
-import upperVector from "../../public/Vector 5.png"
-import upperVectorRight from "../../public/Vector 7.png"
-import centerVector from "../../public/Vector 6.png"
+import downVector from "../../public/Vector4.png"
+import upperVector from "../../public/Vector5.png"
+import upperVectorRight from "../../public/Vector7.png"
+import centerVector from "../../public/Vector6.png"
 import facebook from "../../public/icons8-facebook-50.png"
 import twitterx from "../../public/twitterx.png"
 import linkedin from "../../public/linkedin.png"
 import heroVector from "../../public/herovector.svg"
 import anime from 'animejs'
 import Link from 'next/link'
-
 const Hero = () => {
 
   return (

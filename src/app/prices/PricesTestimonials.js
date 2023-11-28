@@ -34,12 +34,25 @@ const PricesTestimonials = () => {
 
   return (
     <section className="h-full relative max-h-full  flex justify-center text-white w-[100%]">
+      
       <div className="w-[80%] flex flex-col">
-        <h1 className="mt-10">Pricing Plan</h1>
+        <h1 className="mt-10 text-5xl">Pricing Plan</h1>
         <div className="pt-20  grid grid-cols-4 max-md:grid-cols-4 gap-2 max-sm:grid-cols-2">
+          <style jsx>
+            {`
+            button.active {
+              background-color: #fff;
+              color: #000;
+            }
+            `}
+          </style>
           {Object.keys(contentItems).map((index) => (
             <button key={index} onClick={() => handleSwitch(index)} 
-            className="text-[#fff] p-4 max-sm:p-2 bg-[#262626]  rounded-lg hover:bg-[#fff] hover:text-[#000]">
+            className="text-[#fff] p-4 max-sm:p-2 bg-[#262626]  rounded-lg hover:bg-[#fff] hover:text-[#000]
+            ${
+              activeButton === index ? 'active' : ''
+            }`}"
+    >
               {index}
             </button>
           ))}
