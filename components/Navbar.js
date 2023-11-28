@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import NavbarItems from "./Navbaritems.js"
+import NavbarItems from "./NavbarItems";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
