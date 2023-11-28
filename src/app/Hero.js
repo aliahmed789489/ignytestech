@@ -29,11 +29,11 @@ const Hero = () => {
       </div>
        <div className='flex gap-x-10 ml-24 mt-[100px]'>
         <Link href='https://www.facebook.com/profile.php?id=61551752947120' target="_blank"> 
-        <Image src={facebook} className='w-6 h-6'/></Link>
+        <Image src={facebook} className='w-8 h-8'/></Link>
         <Link href="https://twitter.com/ignytestech" target="_blank">
-          <Image src={twitterx} className='w-6 h-6'/></Link>
+          <Image src={twitterx} className='w-8 h-8'/></Link>
         <Link href="https://www.linkedin.com/company/ignytes-tech/" target="_blank">
-          <Image src={linkedin} className='w-6 h-6'/></Link>
+          <Image src={linkedin} className='w-8 h-8'/></Link>
         
        </div>
       </div>

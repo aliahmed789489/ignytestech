@@ -24,7 +24,7 @@ const Contactform = () => {
 
         <h2 className="text-4xl pb-2"
         style={{paddingBottom:"20px"}}
-        >Have Question ? Contact Us</h2>
+        >Have a Question? Contact Us</h2>
         
         {/* <p className="text-sm font-normal pb-2"
         style={{paddingBottom:"25px"}}

@@ -37,7 +37,7 @@ const Footer = () => {
 
       <div className="col-span-2 max-md:col-span-1 max-md:w-full max-sm:w-full ">
         <h2 className="font-bold text-3xl pb-2">Weekly Newsletter</h2>
-        <p className="mb-8">we believe that knowledge is the key to digital success. 
+        <p className="mb-8">We believe that knowledge is the key to digital success. 
         Our weekly newsletter is your gateway to a world of valuable insights,
          updates, and expert tips to help you stay ahead in the digital landscape.</p>
         <div className="flex flex-row max-sm:flex-col" >
