@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS or styles file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} 
+
+ body {
+  background: linear-gradient(176deg, #000 -2.99%, #555 366.17%);
+}
+.hero{
+    width: 100 px;
+    background-color: black;
+}
+.next-image {
+  margin: 0;
+  padding: 0;
+  border: 0; /* This removes the border, which can also have an impact on spacing */
+}
