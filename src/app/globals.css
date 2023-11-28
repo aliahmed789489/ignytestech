@@ -31,3 +31,7 @@
   padding: 0;
   border: 0; /* This removes the border, which can also have an impact on spacing */
 }
+.active-001{
+  background-color: #fff;
+  color: #000;
+}

@@ -12,8 +12,8 @@ const VideoPricing = () => {
     
 <div className="flex flex-col items-center pb-8 pt-8">
             {/* <h5 className="text-[#ffff] text-base font-normal">Vitae tortor condimentum</h5> */}
-            <h3 className="font-bold text-3xl text-[#ffff]">Video Animation Pricing Plan</h3>
-            <div className='bg-[#FF9E18] h-[1px] w-56 mt-8'></div>
+            {/* <h3 className="font-bold text-3xl text-[#ffff]">Video Animation Pricing Plan</h3>
+            <div className='bg-[#FF9E18] h-[1px] w-56 mt-8'></div> */}
         </div>
         {/* ///////////////////////// */}
 
