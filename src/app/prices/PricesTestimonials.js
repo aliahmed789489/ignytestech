@@ -35,6 +35,7 @@ const PricesTestimonials = () => {
   return (
     <section className="h-full relative max-h-full  flex justify-center text-white w-[100%]">
       <div className="w-[80%] flex flex-col">
+        <h1 className="mt-10">Pricing Plan</h1>
         <div className="pt-20  grid grid-cols-4 max-md:grid-cols-4 gap-2 max-sm:grid-cols-2">
           {Object.keys(contentItems).map((index) => (
             <button key={index} onClick={() => handleSwitch(index)} 

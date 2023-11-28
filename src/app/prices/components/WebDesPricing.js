@@ -11,7 +11,7 @@ const WebDesPricing = () => {
 
         {/* heading */}
     <div className="flex flex-col items-center pb-8 pt-8">
-        <h1 className="font-bold text-5xl text-[#ffff]">Website Designing Pricing Plans</h1>
+        <h3 className="font-bold text-3xl text-[#ffff]">Website Designing Pricing Plans</h3>
         <div className='bg-[#FF9E18] h-[1px] w-56 mt-8'></div>
     </div>
     {/* ///////////////////////// */}
