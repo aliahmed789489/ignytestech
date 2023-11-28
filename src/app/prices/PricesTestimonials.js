@@ -39,10 +39,10 @@ const PricesTestimonials = () => {
       <div className="w-[80%] flex flex-col">
         
       <div className="flex flex-col items-center pb-8 pt-8">
-        <h3 className="font-bold text-3xl text-[#ffff]">Pricing Plan</h3>
+        <h3 className="font-bold text-5xl text-[#ffff]">Pricing Plan</h3>
         <div className='bg-[#FF9E18] h-[1px] w-56 mt-8'></div> 
       </div>
-      
+
         <div className="pt-20  grid grid-cols-4 max-md:grid-cols-4 gap-2 max-sm:grid-cols-2">
 
           {Object.keys(contentItems).map((index) => (

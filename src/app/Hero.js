@@ -13,6 +13,7 @@ import linkedin from "../../public/linkedin.png"
 import heroVector from "../../public/herovector.svg"
 import anime from 'animejs'
 import Link from 'next/link'
+import Typewriter from '../../components/Typewriter'
 const Hero = () => {
   const textToDisplay = 'GlOBAL STAGE'
   return (

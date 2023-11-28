@@ -9,7 +9,7 @@ const Footer = () => {
           {/* -----------------------first row------------------- */}
         <div className=" max-sm:w-full max-md:hidden">
       <div className="grid grid-cols-2 gap-4">
-      <div className="text-[#252738] ">
+      <div className="text-[#000] ">
         <ul className="flex flex-col gap-4">
              <li className="font-bold"><Link href="/" >Who we are</Link></li>
             <li><Link href="/services">Services</Link></li>
@@ -19,7 +19,7 @@ const Footer = () => {
 
         </ul>
       </div>
-      <div>
+      <div className="text-[#000] ">
         <ul className="flex flex-col gap-4">
         <li className="font-bold">Social</li>
             <li><Link href='https://www.facebook.com/profile.php?id=61551752947120' target="_blank"> Facebook</Link></li>
