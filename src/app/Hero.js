@@ -13,9 +13,9 @@ import linkedin from "../../public/linkedin.png"
 import heroVector from "../../public/herovector.svg"
 import anime from 'animejs'
 import Link from 'next/link'
-import Typewriter from '../../components/Typewriter'
+
 const Hero = () => {
-  const textToDisplay = 'GlOBAL STAGE'
+
   return (
     <main className='h-screen flex relative ' >
       <div className='absolute bottom-0 w-9/12 max-sm:hidden'>
@@ -51,7 +51,7 @@ const Hero = () => {
           <div>
             <h5>Ignytes Tech</h5>
           </div>
-          <div><h1 className='text-5xl capitalize font-bold text-[#DEE1E6] '> WE AMPLIFY YOUR BUSINESS ON A <Typewriter text={textToDisplay} /></h1></div>
+          <div><h1 className='text-5xl capitalize font-bold text-[#DEE1E6] '> WE AMPLIFY YOUR BUSINESS ON A GlOBAL STAGE </h1></div>
           <div className='flex items-space gap-x-3  flex-row max-md:flex-col max-sm:flex-col max-md:items-center max-sm:items-center justify-end mt-20 items-start'>
            
             <div className='w-1/2 max-md:w-full  max-sm:w-full  ml-10 max-md:ml-0 max-sm:ml-0 max-sm:order-1'>
