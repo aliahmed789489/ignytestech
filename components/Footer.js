@@ -8,23 +8,23 @@ const Footer = () => {
         <div className="grid grid-cols-3 max-md:grid-cols-1 max-sm:grid-cols-1">
           {/* -----------------------first row------------------- */}
         <div className=" max-sm:w-full max-md:hidden">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4" style={{color:"#000"}}>
       <div className="text-[#000] ">
-        <ul className="flex flex-col gap-4 text-[#000]">
+        <ul className="flex flex-col gap-4">
              <li className="font-bold text-[#000]"><Link href="/" >Who we are</Link></li>
-            <li><Link href="/services" className="text-[#000] ">Services</Link></li>
-            <li><Link href="/portfolio" className="text-[#000] ">Portfolio</Link></li>
-            <li><Link href="/prices" className="text-[#000] ">Prices</Link></li>
-            <li><Link href="/contact" className="text-[#000] ">Contact Us</Link></li>
+            <li><Link href="/services" >Services</Link></li>
+            <li><Link href="/portfolio" >Portfolio</Link></li>
+            <li><Link href="/prices" >Prices</Link></li>
+            <li><Link href="/contact" >Contact Us</Link></li>
 
         </ul>
       </div>
       <div className="text-[#000] ">
         <ul className="flex flex-col gap-4 text-[#000]">
         <li className="font-bold text-[#000]" >Social</li>
-            <li className="text-[#000] "><Link href='https://www.facebook.com/profile.php?id=61551752947120' target="_blank"> Facebook</Link></li>
-            <li className="text-[#000] "><Link href="https://twitter.com/ignytestech" target="_blank">Twitter</Link></li>
-            <li className="text-[#000] "><Link href="https://www.linkedin.com/company/ignytes-tech/" target="_blank">linkedin</Link></li>
+            <li ><Link href='https://www.facebook.com/profile.php?id=61551752947120' target="_blank" > Facebook</Link></li>
+            <li ><Link href="https://twitter.com/ignytestech" target="_blank" >Twitter</Link></li>
+            <li ><Link href="https://www.linkedin.com/company/ignytes-tech/" target="_blank" >linkedin</Link></li>
           
 
         </ul>
