@@ -47,11 +47,9 @@ const PricesTestimonials = () => {
 
           {Object.keys(contentItems).map((index) => (
             <button key={index} onClick={() => handleSwitch(index)} 
-            className="text-[#fff] p-4 max-sm:p-2 bg-[#262626]  rounded-lg hover:bg-[#fff] hover:text-[#000]
-            ${
-              activeButton === index ? 'active-001' : ''
-            }`}"
-    >
+            className={`text-[#fff] p-4 max-sm:p-2 bg-[#262626]  rounded-lg hover:bg-[#fff] hover:text-[#000] ${activeIndex === index ? 'active-btn' : ''}`}>
+            
+    
               {index}
             </button>
           ))}

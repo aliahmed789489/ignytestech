@@ -10,7 +10,7 @@ const ServicesHero = () => {
   return (
     <section className="h-96 flex flex-row  max-md:flex-col max-sm:flex-col"> 
       <div className="absolute top-20 left-0 z-10 max-md:hidden max-sm:hidden">
-        <Image src={serviceVectorRight} width={700}/>
+        <Image src={serviceVectorRight} width={700} alt="vector up"/>
       </div>
       <div className="w-2/5 max-md:w-full max-sm:w-full  h-full bg-[#000000] ">
         <h1 className="text-[#fff] font-bold text-5xl pt-24 pl-40 max-md:text-center max-sm:text-center max-md:pl-0 max-sm:pl-0">Services</h1>
@@ -19,9 +19,9 @@ const ServicesHero = () => {
         each one designed to transform your vision into a captivating masterpiece.</p>
       </div>
       <div className="w-3/5 h-full bg-[#272727] relative max-md:hidden max-sm:hidden">
-        <Image src={manImage} width={500} className="absolute bottom-0 left-40"/>
+        <Image src={manImage} alt="man using laptop" width={500} className="absolute bottom-0 left-40"/>
         <div className="absolute bottom-0 right-0 max-md:hidden max-sm:hidden"> 
-            <Image src={serviceVectorLeft} width={500}/>
+            <Image src={serviceVectorLeft} width={500} alt="vector down"/>
         </div>
       </div>
     

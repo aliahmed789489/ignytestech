@@ -13,8 +13,8 @@ const ContactTestimonialSection = () => {
       
        <ContactTestimonial
         icon={Map}
-        heading={"Offical Address"}
-        description={"Here is our offical address"}
+        heading={"Official Address"}
+        description={"Here is our official address"}
         contact={"18601 FM 1431 Ste 104 #2053 Jonestown, TX 78645"}
         contactRed={"mailto:"}
        />
@@ -22,8 +22,8 @@ const ContactTestimonialSection = () => {
         icon={Email}
         heading={"Support Email"}
         description={"You can contact us by this email"}
-        contact={"contact@ignytestech.com"}
-        contactRed={"mailto:contact@ignytestech.com"}
+        contact={"inquiry@ignytestech.com"}
+        contactRed={"mailto:inquiry@ignytestech.com"}
        />
       
 
