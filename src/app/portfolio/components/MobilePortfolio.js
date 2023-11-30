@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import AppPort1 from "../../../public/appport1.jpg"
-import AppPort2 from "../../../public/appport2.jpg"
-import AppPort3 from "../../../public/appport3.jpg"
-import AppPort4 from "../../../public/homeport3.jpg"
-import AppPort5 from "../../../public/homeport4.jpg"
+import AppPort1 from "../../../../public/appport1.jpg"
+import AppPort2 from "../../../../public/appport2.jpg"
+import AppPort3 from "../../../../public/appport3.jpg"
+import AppPort4 from "../../../../public/homeport3.jpg"
+import AppPort5 from "../../../../public/homeport4.jpg"
 
 
 const MobilePortfolio = () => {

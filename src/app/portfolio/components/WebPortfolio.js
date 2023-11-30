@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import WebPort1 from "../../../public/webdevport1.jpg"
-import WebPort2 from "../../../public/webdevport2.jpg"
-import WebPort3 from "../../../public/webdevport3.jpg"
-import WebPort4 from "../../../public/webdevport4.jpg"
-import WebPort5 from "../../../public/webdevport5.jpg"
-import WebPort6 from "../../../public/webdevport6.jpg"
+import WebPort1 from "../../../../public/webdevport1.jpg"
+import WebPort2 from "../../../../public/webdevport2.jpg"
+import WebPort3 from "../../../../public/webdevport3.jpg"
+import WebPort4 from "../../../../public/webdevport4.jpg"
+import WebPort5 from "../../../../public/webdevport5.jpg"
+import WebPort6 from "../../../../public/webdevport6.jpg"
 
 const WebPortfolio = () => {
   return (

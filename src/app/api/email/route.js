@@ -6,7 +6,7 @@ export async function POST(req,res){
     port:465,
     host:"ignytestech.com",
     auth:{
-      user:'contact@ignytestech.com',
+      user:'inquiry@ignytestech.com',
       pass:'ignytestech123',
 
     },
@@ -14,7 +14,7 @@ export async function POST(req,res){
   })
   const mailData = {
     from: `${data.email}`,
-    to: 'contact@ignytestech.com',
+    to: 'inquiry@ignytestech.com',
     subject: "New Customer",
     text: " | Sent from: " + data.name + " | Email: " + data.email,
     html: `<div>Name: <h4>${data.name}</h4></div><p>Sent from:

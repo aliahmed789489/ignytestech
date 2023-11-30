@@ -1,17 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
-import LogoPort1 from "../../../public/logoport1.jpg"
-import LogoPort2 from "../../../public/logoport2.jpg"
-import LogoPort3 from "../../../public/logoport3.jpg"
-import LogoPort4 from "../../../public/logoport4.jpg"
-import LogoPort5 from "../../../public/logoport5.jpg"
-import LogoPort6 from "../../../public/logoport6.jpg"
-import LogoPort7 from "../../../public/logoport7.jpg"
-import LogoPort8 from "../../../public/logoport8.jpg"
-import LogoPort9 from "../../../public/logoport9.jpg"
-import LogoPort10 from "../../../public/logoport10.jpg"
-import LogoPort11 from "../../../public/logoport11.jpg"
-import LogoPort12 from "../../../public/logoport12.jpg"
+import LogoPort1 from "../../../../public/logoport1.jpg"
+import LogoPort2 from "../../../../public/logoport2.jpg"
+import LogoPort3 from "../../../../public/logoport3.jpg"
+import LogoPort4 from "../../../../public/logoport4.jpg"
+import LogoPort5 from "../../../../public/logoport5.jpg"
+import LogoPort6 from "../../../../public/logoport6.jpg"
+import LogoPort7 from "../../../../public/logoport7.jpg"
+import LogoPort8 from "../../../../public/logoport8.jpg"
+import LogoPort9 from "../../../../public/logoport9.jpg"
+import LogoPort10 from "../../../../public/logoport10.jpg"
+import LogoPort11 from "../../../../public/logoport11.jpg"
+import LogoPort12 from "../../../../public/logoport12.jpg"
 
 
 const LogoPortfolio = () => {

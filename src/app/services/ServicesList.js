@@ -85,7 +85,7 @@ const ServicesList = () => {
                     serviceImage={BrandingImage}
                     image={BrandingIcon}
                     heading="Branding"
-                    description="we're passionate about helping brands discover their unique voice and craft a compelling 
+                    description="We're passionate about helping brands discover their unique voice and craft a compelling 
                     identity that resonates with their audience. "
                     />
                     <ServicesListItem

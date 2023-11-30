@@ -54,3 +54,8 @@ button.active-001{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.active-btn {
+    background-color: #fff;
+    color: #000;
+
+}

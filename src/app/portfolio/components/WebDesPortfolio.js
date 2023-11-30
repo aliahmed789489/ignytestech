@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import WebDesPort1 from "../../../public/webdesport1.jpg"
-import WebDesPort2 from "../../../public/webdesport2.jpg"
-import WebDesPort3 from "../../../public/webdesport3.jpg"
-import WebDesPort4 from "../../../public/webdesport4.jpg"
-import WebDesPort5 from "../../../public/webdesport5.jpg"
-import WebDesPort6 from "../../../public/webdesport6.jpg"
+import WebDesPort1 from "../../../../public/webdesport1.jpg"
+import WebDesPort2 from "../../../../public/webdesport2.jpg"
+import WebDesPort3 from "../../../../public/webdesport3.jpg"
+import WebDesPort4 from "../../../../public/webdesport4.jpg"
+import WebDesPort5 from "../../../../public/webdesport5.jpg"
+import WebDesPort6 from "../../../../public/webdesport6.jpg"
 
 const WebDesPortfolio = () => {
   return (

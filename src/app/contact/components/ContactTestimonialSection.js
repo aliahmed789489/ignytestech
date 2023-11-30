@@ -1,9 +1,9 @@
-import Map from "../../../public/map.png"
-import Email from "../../../public/phone.png"
-import Phone from "../../../public/email.png"
+import Map from "../../../../public/map.png"
+import Email from "../../../../public/phone.png"
+import Phone from "../../../../public/email.png"
 
 import Image from "next/image"
-import ContactTestimonial from "../../../components/ContactTestimonial"
+import ContactTestimonial from "../../../../components/ContactTestimonial"
 
 const ContactTestimonialSection = () => {
   return (
@@ -17,6 +17,7 @@ const ContactTestimonialSection = () => {
         description={"Here is our official address"}
         contact={"18601 FM 1431 Ste 104 #2053 Jonestown, TX 78645"}
         contactRed={"mailto:"}
+        alternate ={"map icon in  blue"}
        />
        <ContactTestimonial
         icon={Email}
@@ -24,6 +25,7 @@ const ContactTestimonialSection = () => {
         description={"You can contact us by this email"}
         contact={"inquiry@ignytestech.com"}
         contactRed={"mailto:inquiry@ignytestech.com"}
+        alternate={"email icon in blue"}
        />
       
 

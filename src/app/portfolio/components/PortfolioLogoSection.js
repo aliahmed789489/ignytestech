@@ -1,10 +1,10 @@
 
 import Image from "next/image"
-import client01 from "../../../public/2.png"
-import client02 from "../../../public/3.png"
-import client03 from "../../../public/4.png"
-import client04 from "../../../public/5.png"
-import client05 from "../../../public/6.png"
+import client01 from "../../../../public/2.png"
+import client02 from "../../../../public/3.png"
+import client03 from "../../../../public/4.png"
+import client04 from "../../../../public/5.png"
+import client05 from "../../../../public/6.png"
 
 
 

@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import women2 from "../../../public/women2.png"
+import women2 from "../../../../public/women2.png"
 
 const ContactHero = () => {
   return (

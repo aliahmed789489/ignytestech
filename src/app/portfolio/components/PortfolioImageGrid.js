@@ -2,7 +2,7 @@
 import { useState } from "react";
 import WebPortfolio from "./WebPortfolio";
 import WebDesPortfolio from "./WebDesPortfolio";
-import VideoPortfolio from "./VideoPortfolio"
+
 import LogoPortfolio from "./LogoPortfolio";
 import MobilePortfolio from "./MobilePortfolio";
 
@@ -11,8 +11,8 @@ const contentItems = {
   "Website Development": <WebPortfolio />,
   "Website Designing": <WebDesPortfolio />,
   "Mobile App Development": <MobilePortfolio />,
-  "Log Designing": <LogoPortfolio />,
-  "Video Animation": <VideoPortfolio />,
+  "Logo Designing": <LogoPortfolio />,
+ 
   
 };
 

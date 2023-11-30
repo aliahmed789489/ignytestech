@@ -1,6 +1,6 @@
 import "../globals.css"
-import ContactHero from "./ContactHero.js"
-import ContactTestimonialSection from "./ContactTestimonialSection.js"
+import ContactHero from "./components/ContactHero.js"
+import ContactTestimonialSection from "./components/ContactTestimonialSection.js"
 import Head from 'next/head'
 export const metadata = {
   title: 'IGNYTES TECH | CONTACT US | SOFTWARE HOUSE',

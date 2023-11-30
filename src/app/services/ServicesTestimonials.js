@@ -38,7 +38,7 @@ const ServicesTestimonials = () => {
          heading="Best Team"
         />
         <FeaturesServices 
-         description="our 24/7 support, we're always just a click or a call away, ready to assist you, 
+         description="Our 24/7 support, we're always just a click or a call away, ready to assist you, 
          address your concerns."
          image={chat}
          heading="24/7 Support"
@@ -54,7 +54,7 @@ const ServicesTestimonials = () => {
         </div>
         <div className="w-[70%] max-sm:w-[100%] bg-[#262626] p-8">
             <p>
-            our commitment to excellence in the digital realm is unwavering. As the CEO, 
+            Our commitment to excellence in the digital realm is unwavering. As the CEO, 
             I am honored to lead a team of passionate and creative individuals dedicated to your success.
             </p>
         </div>

@@ -1,9 +1,9 @@
 import "../globals.css"
 // import Parallelx from '../../../components/Parallelx'
 
-import PortfolioHero from "./PortfolioHero"
-import PortfolioImageGrid from "./PortfolioImageGrid"
-import PortfolioLogoSection from "./PortfolioLogoSection"
+import PortfolioHero from "./components/PortfolioHero"
+import PortfolioImageGrid from "./components/PortfolioImageGrid"
+import PortfolioLogoSection from "./components/PortfolioLogoSection"
 
 export const metadata = {
   title: 'IGNYTES TECH | OUR PORTFOLIIO | SOFTWARE HOUSE',

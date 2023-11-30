@@ -1,8 +1,8 @@
 
 import Image from "next/image"
-import manTwoImage from "../../../public/man2.png"
-import serviceVectorLeft from "../../../public/portfolioVleft.png"
-import serviceVectorRight from "../../../public/portfolioVright.png"
+import manTwoImage from "../../../../public/man2.png"
+import serviceVectorLeft from "../../../../public/portfolioVleft.png"
+import serviceVectorRight from "../../../../public/portfolioVright.png"
 
 const PortfolioHero = () => {
   return (

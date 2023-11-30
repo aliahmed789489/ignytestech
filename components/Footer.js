@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="bg-[#323444] w-full h-20 mt-10 pt-8	"
       style={{borderTop:"2px solid #323444", paddingTop:"8px"}}>
-        <Link href="/" ><Image src={Frame} /></Link>
+        <Link href="/" ><Image src={Frame} alt="ignytes digital icon"/></Link>
       </div>
       </div>
       

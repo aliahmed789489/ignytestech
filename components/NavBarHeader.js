@@ -19,7 +19,7 @@ const NavBarHeader = () => {
       <div className="container">
         <div className="logo-container">
           <Link href="/">
-            <Image src={Logo}/>
+            <Image src={Logo} height={50}/>
           </Link>
         </div>
         <div className={`menu-container ${menuOpen ? 'open' : ''}`}>
