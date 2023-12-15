@@ -4,10 +4,10 @@ export async function POST(req,res){
   let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
     port:465,
-    host:"ignytestech.com",
+    host:"smtp.gmail.com",
     auth:{
-      user:'inquiry@ignytestech.com',
-      pass:'ignytestech123',
+      user:'euzensolutions1@gmail.com',
+      pass:'uflz ijyk zorr ccps',
 
     },
     secure:true,
